@@ -1,0 +1,1117 @@
+body {
+    line-height: 22px;
+    font-size: 14px;
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+    color: #333;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+#tbars {
+    background-color: #333;
+    height: 35px;
+    margin: -10px auto 0px -10px;
+}
+.tbars1 {
+    position: relative;
+    max-width: 1308px;
+    
+}
+.apps {
+    padding: 5px 0px 0px 20px;
+}
+.apps .app1{
+    color: #08d7a2;
+    background: url(https://static.lagou.com/www/static/common/widgets/header_c/modules/img/app_icon_0495d1d.png) 10px 0 no-repeat;
+    padding: 0 12px 0 27px
+}
+.apps .app2 {
+    border-left: 1px solid #5d5d5d;
+    color: #c4c3c3;
+    line-height: 15px;
+    padding: 0 12px;
+    margin: 7px 0 0;
+}
+a {
+    text-decoration:none;
+    background-color: transparent;
+    color: #555;
+    cursor: auto;
+}
+.denglu {
+    float: right;
+}
+.tbars1 ul {
+    margin: -25px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+    display: block;
+
+}
+.denglu li {
+    position: relative;
+    float: left;
+    height: 30px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.denglu a {
+    color: #c4c3c3;
+    float: left;
+    line-height: 15px;
+    padding: 0 12px;
+    margin: 7px 0 0;
+}
+.zhuce {
+    border-left: 1px solid #5d5d5d;
+}
+.daohang {
+    height: 54px;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fafafa;
+}
+.inners {
+    width: 1200px;
+    margin: 0 auto; 
+}
+.daohang .lagou {
+    float: left;
+    width: 260px;
+}
+/* .daohang .inners .lagous h1 {
+    float: left;
+    width: 97px;
+    height: 34px;
+    margin: 10px 0 0;
+    padding: 0;
+    background-image: url(https://static.lagou.com/www/static/common/widgets/header_c/modules/img/logo_1c5763c.png);
+    overflow: hidden;
+    text-indent: -99em;
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;      
+    font-weight: 400;
+} */
+.citys {
+    float: left;
+    height: 44px;
+    padding-top: 10px;
+    padding-left: 12px;
+    font-size: 18px;
+    line-height: 44px;
+}
+.citys strong {
+    margin-right: 8px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+}
+.citys em {
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+    font-style: normal;
+}
+.tabs {
+    float: left;
+}
+.inners ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.daohang .inners .tabs li a {
+    display: block;
+    font-size: 18px;
+    color: #999;
+    line-height: 53px;
+    padding: 0 5px;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: auto;
+}
+.daohang .inners .tabs li {
+    display: inline-block;
+    margin: -15px 16px 0px 16px;
+    position: relative;
+    text-align: -webkit-match-parent;
+}
+.daohang .inners .tabs .index {
+    color: #333;
+    border-bottom: 2px solid #00b38a;
+}
+.tabs li a:hover {
+    border-bottom: 2px solid #00b38a;
+}
+* {
+    outline: 0;
+}
+.mains {
+    padding-bottom: 91px;
+}
+.mains .mains_content {
+    position: relative;
+}
+.searchs {
+    background: #F2F5F4;
+    padding: 30px 0 28px;
+    min-width: 1200px;
+}
+.searchBos {
+    border: 0 solid #00b38a;
+    width: 938px;
+    height: 46px;
+    margin: 0 auto;
+    position: relative;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.search_input {
+    width: 762px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    font-size: 16px;
+    padding: 12px 16px;
+    margin: 0;
+    border: 1px solid #E8E8E8;
+    border-right: 0;
+    
+}
+.search_input:focus {
+    border: 1px solid #00b38a;
+    border-right: 0;
+}
+
+.search_lists {
+    display:none;
+    position:absolute;
+    top: 46px;
+    left: 0px;
+    width: 795px;
+    background: #fff;
+    z-index: 1;
+    /* box-shadow: 0 2px 3px 0 rgba(0,0,0,.08);
+    border: 0;
+    border-radius: 3px;
+    color: #555;
+    font-size: 1.1em;
+    list-style: none; */
+
+}
+.searchLists {
+    border-top: none;
+    font-size: 16px;
+    color: #999;
+    width: 50px;
+    position: absolute;
+    z-index: 11;
+    right: 0;
+    text-align: center;
+    padding: 8px 0;
+    
+}
+.search_lists_1 {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    position: relative;
+    margin-right: 50px!important;
+    background: #fff;
+    border-right: 1px dashed #ededed;
+    display: list-item;
+}
+.search_lists_1 .search_a {
+    display: block;
+    overflow: hidden;
+    padding: 8px 17px;
+    text-decoration: none;
+    line-height: 1.5;
+    min-height: 0;
+    font-weight: 400;
+    color: #555;
+}
+.search_a:hover {
+    background: #00b39a;
+    color: white;
+}
+.search_a:hover i{
+    color: white;
+}
+.search_lists_1_1 {
+    float: left;
+}
+.search_lists_1_2 {
+    float: right;
+}
+.search_lists_1_2 i {
+    color: #00b38a;
+    font-style: normal;
+}
+.search_box:hover .search_lists{
+    display: block;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    border-radius: 0;
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    font: 13.3333px Arial;
+    margin: 0;
+    padding: 0;
+}
+.search_button {
+    float: left;
+    width: 142px;
+    height: 46px;
+    font-size: 18px;
+    color: #FFF;
+    border: 0;
+    background: #00b38a;
+    text-align: center;
+}
+.search_button:hover {
+    background: #00a09a;
+}
+.hot_search {
+    width: 938px;
+    height: 22px;
+    overflow: hidden;
+    margin: 6px auto 0;
+    display: block;
+
+}
+.hot_search dt {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #777;
+    float: left;
+    margin: 0;
+    display: block;
+}
+.hot_search dd {
+    margin-right: 20px;
+    color: #999;
+    float: left;
+    margin: 0;
+    display: block;
+    -webkit-margin-start: 40px;
+}
+.hot_words {
+    color: #00b38a;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: auto;
+}
+.hot_words:hover {
+    border-bottom: 1px solid #00b38a;
+}
+.content_body {
+    margin: 26px auto 0;
+    width: 1200px;
+    /* background: greenyellow; */
+}
+
+.sider_menu {
+    float: left;
+    position: relative;
+    width: 321px;
+    margin-left: -15px;
+}
+.menu1 .menu2 {
+    position: relative;
+}
+.menu3 {
+    position: relative;
+    padding: 18px 0 17px;
+}
+.menu3 .menu_list {
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    border-right: 0;
+}
+.menu3 .menu_list h2 {
+    display: inline-block;
+    padding-left: 15px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.menu3 .menu_list a {
+    margin: 0 5px 5px 0;
+    padding: 0 8px;
+    white-space: nowrap;
+    color: #555;
+    background-color: transparent;
+    text-decoration: none;
+}
+.menu_list a:hover {
+    border-bottom: 1px solid #00b38a;
+    color: #00b38a;
+}
+.menu_list .images1 {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 6px;
+    height: 11px;
+    margin-right: 8px;
+    background: url(https://static.lagou.com/www/static/index/modules/sidebar/img/arrow_92b8589.png) 0 0 no-repeat;
+}
+.menu2 .menu4 {
+    position: absolute;
+    left: 321px;
+    top: 0px;
+    width: 600px;
+    padding: 20px 10px 0 12px;
+    z-index: 10;
+    background: #fff;
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.09);
+    border-radius: 2px;
+    border-top-left-radius: 0;
+    display: none;
+}
+.menu2:hover .menu4 {
+    display: block;
+    margin-top: -1px;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+.menu2:hover {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+}
+.menu4 dl {
+    margin: 0 0 17px;
+    display: block;
+}
+.menu4 dt {
+    position: relative;
+    width: 70px;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 6px;
+    display: block;
+}
+.menu4 dt span {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    color: #333;
+}
+.menu4 dl dd {
+    color: #555;
+    font-size: 0;
+    overflow: hidden;
+    margin: 0;
+    display: block;
+    -webkit-margin-start: 40px;
+}
+.menu4 dl dd .dd1 {
+    color: #00b38a;
+    display: inline-block;
+    position: relative;
+    margin-left: -1px;
+    padding: 0 11px;
+    font-size: 14px;
+    line-height: 28px;
+    /* color: #777; */
+    white-space: nowrap;
+    background-color: transparent;
+    text-decoration: none;
+}
+.rolling_grap {
+    position: relative;
+    margin-left: 360px;
+    margin-top: 20px;
+    height: 366px;
+    overflow: hidden;
+    /* background-color: #F2F5F4; */
+}
+.rolling_grap .bg_images {
+    left: -840px; 
+    width: 3360px;
+    zoom: 1;
+    position: absolute;
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+.rolling_grap .bg_images li {
+    float: left;
+    width: 840px;
+    height: 346px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.job_tabs {
+    margin-top: 16px;
+    margin-bottom: 14px;
+    font-size: 0;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 0;
+    list-style: none;
+    display: block;
+
+}
+.hot_tab {
+    border-bottom: 2px solid #333;
+    background: #fff;
+    color: #333;
+    margin-left: -307px;
+}
+.job_tabs li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 14px 0;
+    margin-right: 58px;
+    font-size: 16px;
+    text-align: left;
+}
+.job_list_ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 1216px;
+    height: 300px;
+    display: block;
+    /* background: red; */
+}
+.default_list {
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    width: 389px;
+    height: 200px;
+    margin: 16px 16px 0 0;
+    padding: 20px 18px 0;
+    border: 1px solid #EAEEED;
+    background-color: #fff;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.job_name_1 {
+    height: 22px;
+    font-size: 0;
+    max-width: 290px;
+    float: left;
+}
+.job_name_1 .dib {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    font-weight: 400;
+}
+.job_name_1 .dib .job_links {
+    max-width: 145px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    float: left;
+    color: #555;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: auto;
+}
+.job_name_1 .create_time {
+    color: #999;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.chat_me {
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: url(https://static.lagou.com/www/static/index/modules/job_list/img/icon_chat2_d162651.png) no-repeat 0 0;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.chat_me .chat_tips {
+    display: none;
+    position: absolute;
+    top: -30px;
+    left: 40px;
+    width: 312px;
+    height: 132px;
+    padding: 16px;
+    background: #fff;
+    z-index: 1;
+    border-radius: 3px;
+    border: 1px solid #dce4e6;
+    box-shadow: 1px 1px 2px #f2f2f2;
+    user-select: none;
+}
+.chat_tips .arrow {
+    position: absolute;
+    left: -8px;
+    top: 33px;
+    width: 14px;
+    height: 14px;
+    margin: 0!important;
+    background-color: #fff;
+    border-left: 1px solid #dce4e6;
+    border-top: 1px solid #dce4e6;
+}
+dl {
+    margin: 0;
+    display: block;
+}
+.job_name .salary {
+    font-size: 16px;
+    color: #fa6041;
+    float: right;
+}
+.div_1 .job_dec {
+    height: 30px;
+    line-height: 30px;
+    color: #777;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+
+}
+.div_1 .job_dec span+span:before{
+    content: '/';
+}
+.div_1 .job_review {
+    margin-top: 5px;
+}
+.div_1 .job_review .job_review_1 {
+    margin-right: 20px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.div_1 .job_review .job_review_1 .mainWord {
+    display: inline-block;
+    width: 61px;
+    height: 26px;
+    padding: 0 5px;
+    font-size: 12px;
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #F0F0F0;
+    border-radius: 3px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.div_2 {
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px dashed #E0E0E0;
+}
+.logo1 {
+    float: left;
+    color: #555;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: auto;
+}
+img {
+    border: 0;
+    vertical-align: top;
+    display: inline-block;
+}
+.companyNames {
+    margin-left: 54px;
+}
+.companyName_1 {
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.company_words {
+    height: 20px;
+    line-height: 20px;
+    color: #999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.company_words span+span:before {
+    content: '/'
+}
+/* .job_list1 .job_list2 .list_mores {
+    display: block;
+    width: 387px;
+    height: 42px;
+    line-height: 42px;
+    margin: 360px auto 0;
+    background: #FFF;
+    border: 1px solid #00B38A;
+    font-size: 16px;
+    color: #00b38a;
+    text-align: center;
+}
+.list_mores:hover {
+    background: #00b38a;
+} */
+.list_more_button {
+    width: 387px;
+    height: 42px;
+    margin: 15px auto 0;
+    line-height: 42px;
+    background: #FFF;
+    font-size: 18px;
+    color: #00b38a;
+    border: 1px solid #00B38A;
+    text-align: center;
+ 
+}
+.list_more_button:hover {
+    background: #00b38a;
+    color: #fff;
+}
+.hot_company {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    font-size: 0;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 0;
+    list-style: none;
+}
+.hot_company .hot_company_1 {
+    border-bottom: 2px solid #333;
+    background: #fff;
+    color: #333;
+    display: inline-block;
+    padding: 14px 0;
+    margin-right: 58px;
+    font-size: 16px;
+}
+.hotCompany_list_1 {
+    width: 1216px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.hotCompany_list_1 li {
+    box-sizing: border-box;
+    float: left;
+    width: 288px;
+    height: 270px;
+    margin-top: 16px;
+    margin-right: 16px;
+    border: 1px solid #EEE;
+    display: list-item;
+
+}
+.hotCompany_list_1 li .hotCompany_listItems_1 {
+    margin: 0 13px;
+    padding: 20px 0 14px;
+    text-align: center;
+    border-bottom: 1px dashed #E0E0E0;
+    /* background: yellow; */
+}
+.hotCompany_list_1 li .hotCompany_listItems_1 p {
+    line-height: 22px;
+}
+p{
+    display: block;
+    margin: 0;
+}
+.hotcompanyName_1 {
+    height: 22px;
+    margin-top: 13px;
+    font-size: 16px;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.hotcompanyName_2 {
+    height: 22px;
+    margin-top: 3px;
+    color: #999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.hotcompanyName_2 span+span:before {
+    content: '/';
+}
+.hotcompanyName_3 {
+    margin-top: 5px;
+    color: #555;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.hotCompany_listItems_2:before {
+    content: '';
+    display: table;
+}
+.hotCompany_listItems_2_1 {
+    width: 90px;
+    position: relative;
+    display: block;
+    margin-top: 17px;
+    text-align: center;
+    float: left;
+}
+.hotCompany_listItems_2 p{
+    line-height: 1;
+}
+.hotCompany_listItems_2 .green {
+    color: #00b38a;
+}
+.hotCompany_listItems_2 .gray {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #999;
+}
+.hotCompany_listItems_2_2 {
+    width: 90px;
+    position: relative;
+    display: block;
+    margin-top: 17px;
+    text-align: center;
+    float: left;
+    /* border-left: 1px solid #999; */
+}
+.hotCompany_listItems_2_3 {
+    width: 104px;
+    border-right: 0;
+    position: relative;
+    display: block;
+    margin-top: 17px;
+    text-align: center;
+    float: left;
+}
+.hotCompany_listItems_2_1:after,.hotCompany_listItems_2_2:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    height: 30px;
+    width: 1px;
+    background: #EDEDED;
+}
+.friends_links {
+    position: relative;
+    margin-top: 52px;
+    overflow: hidden;
+    height: 99px;
+    margin-bottom: 90px;
+}
+.friends_links dl {
+    position: relative;
+}
+.friends_links dl dt {
+    border-bottom: 1px solid #E8E8E8;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 21px;
+    margin: 0;
+    display: block;
+}
+.friends_links dl dt .friendsLinks {
+    display: inline-block;
+    padding: 14px 0;
+    border-bottom: 2px solid #333;
+}
+.friends_links1 {
+    position: relative;
+    width: 1120px;
+    color: #555;
+    font-size: 14px;
+    overflow: hidden;
+    margin: 10px 0 0 0;
+    display: block;
+}
+.friends_links1_1 {
+    white-space: nowrap;
+    float: left;
+    height: 15px;
+    padding: 8px 18px 8px 0;
+    line-height: 15px;
+    color: #555;
+    text-decoration: none;
+}
+.friends_links1_1:hover {
+    color: #00b38a;
+    text-decoration: underline;
+}
+.footer_bars {
+    min-width: 1024px;
+    background-color: #fff;
+    clear: both;
+    height: 67px;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    z-index: 1001;
+}
+.footer_bars1 {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer_barslogo {
+    position: absolute;
+    left: 0;
+    top: 9px;
+    z-index: 1;
+    display: block;
+    width: 198px;
+    height: 19px;
+    background: url(https://static.lagou.com/www/static/common/widgets/footer_c/modules/img/footer_lagou_icon_75f0ebc.png) 0 0 no-repeat;
+    font-style: normal;
+}
+.footer_bars1_1 {
+    padding-top: 12px;
+    float: right;
+    height: 14px;
+    line-height: 14px;
+    white-space: nowrap;
+}
+.footer_bars1_1_1 {
+    margin-right: 12px;
+    float: left;
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+}
+.icon_new {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+    margin-left: 3px;
+    overflow: hidden;
+    background: url(https://static.lagou.com/www/static/common/widgets/footer_c/modules/img/app-download/new_v1_a261f5c.png) no-repeat;
+    vertical-align: text-top;
+    text-indent: -99em;
+    font-style: normal;
+}
+.telphone {
+    margin-right: 0;
+    float: left;
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+}
+.telphone em {
+    font-size: 13px;
+    font-style: normal;
+}
+.copyright {
+    clear: both;
+    height: 12px;
+    margin: 0 auto;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    color: #d5d5d5;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+.copyright span em {
+    font-family: Arial;
+    font-size: 13px;
+    font-style: normal;
+}
+.copyright a {
+    padding-right: 0;
+    font-size: 12px;
+    color: #d5d5d5;
+}
+
+
+.denglu_bars {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0px;
+    left: 0;
+    background: #09C084;
+}
+.denglu_bars_1 {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+}
+.denglu_bars_1 em {
+    width: 99px;
+    height: 86px;
+    background-image: url(https://static.lagou.com/www/static/common/widgets/new_login_toolbar/img/login_officer_bg_8c1de01.png);
+    background-repeat: no-repeat;
+    background-size: 99px 86px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-style: normal;
+}
+.texts {
+    margin-left: 180px;
+    color: #fff;
+    font-size: 0;
+    margin: 0;
+    display: block;
+}
+.texts_1 {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: top;
+    font-size: 20px;
+    margin-left: 180px;
+}
+.texts_2 {
+    width: 584px;
+    text-align: center;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: top;
+    font-size: 20px;
+}
+.texts_2_1, .texts_2_3 {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: top;
+    font-size: 20px;
+}
+.texts_2_2 {
+    margin: 19px 20px 0;
+    font-size: 18px;
+    height: 18px;
+    line-height: 1;
+    opacity: .4;
+}
+.denglu_buttons {
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0;
+}
+.denglu_buttons_1 {
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    margin: 10px 0;
+    display: inline-block;
+    width: 89px;
+    vertical-align: top;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.denglu_buttons_1:hover {
+    background: #FFF;
+    color: #00b38a;
+}
+.denglu_buttons_2 {
+    margin-left: 17px;
+    background: #FFF;
+    color: #00b38a;
+    margin: 10px 0 10px 15px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 89px;
+    vertical-align: top;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 16px;
+}
+#backtop {
+    left: auto;
+    right: 41px;
+    margin-left: 0;
+    background: url(https://static.lagou.com/www/static/common/widgets/footer_c/modules/img/backtop-new_0e4bcbc.png) no-repeat;
+    width: 28px;
+    height: 46px;
+    position: fixed;
+    cursor: pointer;
+}
+.backtop:hover {
+    background-position: -39px 0;
+}
+.feedback {
+    left: auto;
+    right: 30px;
+    margin-left: 0;
+    bottom: 148px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 1;
+}
+.feedback_icon {
+    position: relative;
+    text-align: center;
+}
+.feedback_icons {
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+    background: url(https://static.lagou.com/www/static/common/widgets/footer_c/modules/img/feedback-new_98a086e.png) left center no-repeat;
+    background-position: 0 0;
+}
+.feedback_icon span {
+    font-size: 12px;
+    color: #555;
+}
+.feedback_icon:hover .feedback_icons {
+    background-position: -38px 0;
+}
