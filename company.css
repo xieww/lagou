@@ -631,6 +631,8 @@ ul, ol {
     min-height: 20px;
     padding: 40px 0;
     margin-top: 10px;
+    /* margin-bottom:-50px; */
+    bottom: -60px;
     border-top: 1px solid #e8e8e8;
 }
 .com_address .com_desc {
