@@ -311,10 +311,10 @@ ul, ol {
     border-left: 0;
 }
 .company_navs_shadow {
-    /* display: none; */
+    display: none;
     width: 100%;
     height: 54px;
-    background: red;
+    /* background: red; */
 }
 .company_context  {
     width: 1024px;
@@ -396,6 +396,234 @@ ul, ol {
     font-size: 14px;
     color: #333;
     vertical-align: middle;
+}
+
+.interview_info .inter_top {
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #dce4e6;
+}
+.interview_info .inter_top .inter_tops {
+    height: 25px;
+    line-height: 25px;
+}
+.interview_info .inter_top .inter_tops .text {
+    position: relative;
+    top: 3px;
+    float: left;
+    margin-right: 10px;
+    color: #333;
+}
+.inter_tops .stars {
+    margin-right: 10px;
+    position: relative;
+    float: left;
+}
+.inter_tops .stars .stars_1 {
+    width: 125px;
+    height: 23px;
+    background-image: url(https://static.lagou.com/www/static/company-c/modules/common/img/star_164398f.png);
+    background-position: 0 23px;
+}
+.inter_tops .stars .stars_1 .star_rank {
+    display: inline-block;
+    width: 125px;
+    height: 23px;
+    background-image: url(https://static.lagou.com/www/static/company-c/modules/common/img/star_164398f.png);
+    background-position: -1px 23px;
+}
+.inter_tops .score {
+    float: left;
+    color: #fd5f39;
+    margin-right: 10px;
+    font-size: 24px;
+}
+.inter_tops .count {
+    float: left;
+    position: relative;
+    top: 3px;
+    color: #999;
+}
+.inter_tops:after {
+    clear: both;
+}
+.inter_top .desc_ul {
+    margin-top: 24px;
+}
+.inter_top .desc_ul .desc_li {
+    float: left;
+}
+.desc_li .text {
+    float: left;
+    margin-right: 8px;
+    color: #999;
+}
+.desc_li .stars {
+    margin-right: 8px;
+    position: relative;
+    float: left;
+}
+.desc_li .stars .stars_left {
+    width: 109px;
+    height: 20px;
+    background-image: url(https://static.lagou.com/www/static/company-c/modules/common/img/star_s_a5b6ed7.png);
+    background-position: 0 20px;
+}
+.desc_li .stars .stars_left .star_1 {
+    display: inline-block;
+    width: 109px;
+    height: 20px;
+    background-image: url(https://static.lagou.com/www/static/company-c/modules/common/img/star_s_a5b6ed7.png);
+    background-position: -1px 20px;
+}
+.desc_li .score {
+    float: left;
+    color: #fd5f39;
+}
+.desc_li .spacing {
+    float: left;
+    height: 14px;
+    margin: 3px 22px;
+    border-left: 1px solid #dce4e6;
+}
+.list_div {
+    margin-bottom: 40px;
+}
+.list_div .comment_list {
+    padding-top: 14px;
+}
+.list_div .comment_list .comment_li {
+    padding: 26px 0 120px 0;
+    border-bottom: 1px dashed #dce4e6;
+}
+.list_div .comment_list li .comm_l {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 14px;
+}
+.list_div .comment_list .comm_l .imgs {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.comment_list .comm_r {
+    float: left;
+    width: 644px;
+}
+.comment_list .comm_r .comm_stars {
+    width: 644px;
+    margin-bottom: 10px;
+}
+.comment_list .comm_r .comm_stars .names {
+    float: left;
+    width: 42px;
+    margin-right: 35px;
+    cursor: text;
+}
+.comment_list .comm_r .comm_stars .title {
+    float: left;
+    color: #999;
+}
+.comm_stars .stars {
+    margin-right: 27px;
+    position: relative;
+    float: left;
+}
+.comm_stars .stars .stars1 {
+    width: 109px;
+    height: 20px;
+    background-image: url(https://www.lgstatic.com/www/static/company-c/modules/common/img/star_s_a5b6ed7.png);
+    background-position: 0 20px;
+}
+.comm_stars .stars .stars1 .star_1 {
+    display: inline-block;
+    height: 20px;
+    background-image: url(https://www.lgstatic.com/www/static/company-c/modules/common/img/star_s_a5b6ed7.png);
+}
+.comm_stars .titles {
+    float: left;
+    color: #999;
+}
+.comm_stars .job-name {
+    float: left;
+    max-width: 115px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.comm_stars .job-status {
+    float: left;
+    color: #999;
+}
+.comm_stars .times {
+    float: left;
+    color: #999;
+    font-size: 14px;
+}
+.comm_r .tags {
+    margin-bottom: 10px;
+}
+.comm_r .tags .tag1 {
+    float: left;
+    font-size: 5px;
+    padding: 1px 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border: 1px solid #b7b7b7;
+    border-radius: 15px;
+    /* height: 20px; */
+}
+.clearfix:before {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.comm_r .comm_inter {
+    /* position: relative; */
+    margin-top: -8px;
+    margin-bottom: 2px;
+    float: left;
+    /* left: -210px; */
+}
+.comm_r .comm_inter div .review-type {
+    display: inline-block;
+    color: #999;
+}
+.comm_r .comm_inter div .interview-process {
+    display: inline;
+}
+.comm_inter:after {
+    clear: both;
+}
+.comm_action{
+    display: block;
+}
+.comm_r .comm_action .action_next {
+    position: relative;
+    color: #00b38a;
+    left: -420px;
+    top: 12px;
+}
+.interview_eval .view_more {
+    margin: 30px auto 0;
+    padding: 8px 15px;
+    display: block;
+    width: 60px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    border-radius: 4px;
+    color: #00b38a;
+    border: 1px solid #00b38a;
+}
+.interview_eval .view_more:hover {
+    background: #00b38a;
+    color: #fff;
 }
 .com_address {
     position: relative;
@@ -722,4 +950,132 @@ p {
     margin-left: 27px;
     text-decoration: underline;
     color: #999;
+}
+#backtop {
+    left: auto;
+    right: 41px;
+    margin-left: 0;
+    background: url(https://static.lagou.com/www/static/common/widgets/footer_c/modules/img/backtop-new_0e4bcbc.png) no-repeat;
+    width: 28px;
+    height: 46px;
+    position: fixed;
+    cursor: pointer;
+}
+.backtop:hover {
+    background-position: -39px 0;
+}
+.feedback {
+    left: auto;
+    right: 30px;
+    margin-left: 0;
+    bottom: 148px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 1;
+}
+.feedback_icon {
+    position: relative;
+    text-align: center;
+}
+.feedback_icons {
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+    background: url(https://static.lagou.com/www/static/common/widgets/footer_c/modules/img/feedback-new_98a086e.png) left center no-repeat;
+    background-position: 0 0;
+}
+.feedback_icon span {
+    font-size: 12px;
+    color: #555;
+}
+.feedback_icon:hover .feedback_icons {
+    background-position: -38px 0;
+}
+
+.footer_bars {
+    min-width: 1024px;
+    background-color: #fff;
+    clear: both;
+    height: 67px;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    z-index: 1001;
+}
+.footer_bars1 {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer_barslogo {
+    position: absolute;
+    left: 0;
+    top: 9px;
+    z-index: 1;
+    display: block;
+    width: 198px;
+    height: 19px;
+    background: url(https://static.lagou.com/www/static/common/widgets/footer_c/modules/img/footer_lagou_icon_75f0ebc.png) 0 0 no-repeat;
+    font-style: normal;
+}
+.footer_bars1_1 {
+    padding-top: 12px;
+    float: right;
+    height: 14px;
+    line-height: 14px;
+    white-space: nowrap;
+}
+.footer_bars1_1_1 {
+    margin-right: 12px;
+    float: left;
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+}
+.icon_new {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+    margin-left: 3px;
+    overflow: hidden;
+    background: url(https://static.lagou.com/www/static/common/widgets/footer_c/modules/img/app-download/new_v1_a261f5c.png) no-repeat;
+    vertical-align: text-top;
+    text-indent: -99em;
+    font-style: normal;
+}
+.telphone {
+    margin-right: 0;
+    float: left;
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+}
+.telphone em {
+    font-size: 13px;
+    font-style: normal;
+}
+.copyright {
+    clear: both;
+    height: 12px;
+    margin: 0 auto;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    color: #d5d5d5;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+.copyright span em {
+    font-family: Arial;
+    font-size: 13px;
+    font-style: normal;
+}
+.copyright a {
+    padding-right: 0;
+    font-size: 12px;
+    color: #d5d5d5;
 }
