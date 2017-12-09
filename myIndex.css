@@ -427,3 +427,62 @@ em.a {
 .mr_moudle_head .mr_head_r * {
     vertical-align: middle;
 }
+.mr_moudle_content {
+    padding-bottom: 0;
+    color: #555;
+    font-size: 14px;
+    width: 604px;
+    margin: 0 auto;
+}
+.mr_moudle_content .list_show {
+    padding-bottom: 6px;
+}
+.mr_jobe_list {
+    padding-bottom: 44px;
+}
+.mr_moudle_content .mr_content_l {
+    float: left;
+    max-width: 445px;
+}
+.mr_moudle_content .mr_content_l .l1 {
+    float: left;
+    margin-right: 10px;
+}
+.mr_moudle_content .mr_content_l .l1 img {
+    width: 46px;
+    height: 46px;
+    border: 2px solid #eee;
+}
+.dn {
+    display: none;
+}
+.mr_content_l .l2 {
+    padding-top: 4px;
+}
+.mr_moudle_content .mr_content_l .l2 {
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    max-width: 380px;
+}
+.mr_moudle_content .mr_content_l .l2 h4 {
+    font-size: 16px;
+}
+h2, h3, h4, p {
+    margin: 0;
+}
+h1, h2, h3, h4 {
+    margin: 10px 0;
+    font-weight: 400;
+}
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.mr_moudle_content .mr_content_l .l2 span {
+    color: #999;
+    display: block;
+}
