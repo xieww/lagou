@@ -335,6 +335,26 @@ em, i {
     margin-right: 6px;
     height: 24px;
 }
+.birth_span {
+    position: absolute;
+    left: 50%;
+    top: -4px;
+    margin-left: -50px;
+    margin-top: -20px;
+    padding: 0 5px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #666;
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+/* .mypersoninfo .age:hover .birth_span {
+    display: block;
+} */
 .mypersoninfo em {
     vertical-align: middle;
 }
