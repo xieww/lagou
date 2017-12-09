@@ -150,17 +150,19 @@ a {
     border-radius: 75px;
 }
 .my_img .opa {
-    left: 0;
+    left: 0; 
     top: 0;
     width: 100%;
     height: 170px;
 }
 .my_img .shadow {
-    display: none;
     left: 293px;
     top: 45px;
     width: 116px;
     height: 116px;
+}
+.my_img mr_headimg:hover .shadow {
+    display: block;
 }
 img {
     border: 0;
@@ -208,6 +210,24 @@ em, i {
     height: 50px;
     background: #f2f2f2 url(https://www.lgstatic.com/www/static/mycenter/modules/common/img/qr_bg_9ac44b7.png) 10px 10px no-repeat;
 }
+.my_qcon .dropdown_menu {
+    width: 302px;
+    height: 155px;
+    background: url(https://static.lagou.com/www/static/mycenter/modules/common/img/myresume_qr3_7e2d5c9.png) no-repeat;
+    color: #fff;
+    display: block;
+    padding: 12px 168px 109px 5px;
+    margin: 50px 0 0 -225px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .25s;
+    transition: .25s;
+    cursor: auto;
+}
+/* .my_qcon:hover .dropdown_menu {
+    opacity: 1;
+    visibility: visible;
+} */
 .my_name_p {
     width: 604px;
     margin: 0 auto;

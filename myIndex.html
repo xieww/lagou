@@ -8,8 +8,19 @@
     <link rel="stylesheet" href="myIndex.css">
     <link rel="Shortcut Icon" href="https://static.lagou.com/www/static/common/static/favicon_faed927.ico">
     <title>我的主页</title>
+    <!-- <script type="text/javascript">
+        window.onload = function(){
+            var ms = document.getElementById("userpic");
+            var add = document.getElementById("imgs3");
+            ms.onmouseover = function(){
+                add.style.display = "block";
+            };
+            ms.onmouseout = function(){
+                add.style.display = "none";
+            };
+        };
+    </script> -->
 </head>
-
 <body>
     <!-- 头部开始 -->
     <div id="headers">
@@ -70,19 +81,24 @@
             <div class="person_header">
                 <div class="my_per">
                     <div class="my_per_1">
-                        <div class="my_img">
+                        <div id="myimgs" class="my_img">
                             <img class="mr_headimg" id="userpic" src="https://www.lgstatic.com/i/image/M00/4B/0A/CgpFT1lt1pWAR69yAABfL7jr9ro322.png"
                                 width="120" height="120" alt="头像">
                             <!-- <img class="opa" src="https://www.lgstatic.com/www/static/mycenter/modules/common/img/tou_c3707c7.png" 
                             width="702" height="170"> -->
-                            <img class="shadow" src="https://www.lgstatic.com/www/static/mycenter/modules/common/img/shadow_tx_a482008.png" width="119"
+                            <img id="imgs3" class="shadow" src="https://www.lgstatic.com/www/static/mycenter/modules/common/img/shadow_tx_a482008.png" width="119"
                                 height="119" style="display: none;">
                         </div>
                         <div class="my_baseinfo">
                             <i class="mr_left_bg"></i>
                             <i class="mr_right_bg"></i>
                             <div class="my_qcon">
-
+                                <div class="dropdown_menu">
+                                    <div class="lgad_jsonp">
+                                        <img src="https://static.lagou.com/i/image/M00/8A/30/Cgp3O1h0rI6AOt76AADBj42OxaE531.PNG"
+                                            style="width: 302px; height: 155px;">
+                                    </div>
+                                </div>
                             </div>
                             <div class="my_name_p clearfixs">
                                 <span class="my_edit bt">
@@ -443,7 +459,7 @@
                                 </li>
                                 <li data-md="expectJob" class="m_hide md_flag">
                                     <a class="clearfixs">
-                                        <span class="mr_hide_del"></span>                      
+                                        <span class="mr_hide_del"></span>
                                         <i class="mr_hopework_i"></i>
                                         <span class="mr_m_name">期望工作</span>
                                     </a>
