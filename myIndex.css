@@ -722,3 +722,122 @@ ul, ol {
 .mr_r_nav li a i.dy:hover {
     background-position: -67px -348px;
 }
+.mr_upload {
+    position: relative;
+    height: 57px;
+    border: 1px solid #f2f2f2;
+    background-color: #fafafa;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 18px!important;
+}
+.mr_upload i {
+    position: absolute;
+    top: 22px;
+    left: 58px;
+    width: 16px;
+    height: 15px;
+    margin-right: 10px;
+    background: url(https://static.lagou.com/www/static/mycenter/modules/common/img/icons_mr_0ef4596.png) -64px -70px no-repeat;
+}
+.mr_upload * {
+    vertical-align: middle;
+}
+.mr_upload a.inline {
+    display: block;
+    text-align: center;
+    line-height: 57px;
+}
+.mr_upload a {
+    cursor: pointer;
+}
+a:hover {
+    color: #00b38a;
+}
+.mr_module li.active {
+    border-color: #00b88d;
+    border-width: 2px;
+}
+.mr_module li {
+    height: 50px;
+    line-height: 50px;
+    border-left: 2px solid transparent;
+    margin-left: -1px;
+    border-left: 1px solid #e5e5e5;
+    padding-left: 6px;
+    cursor: pointer;
+}
+.md_flag {
+    position: relative;
+}
+.mr_module li a {
+    display: block;
+    height: 100%;
+    color: #333;
+}
+.mr_module li.active .mr_base_i {
+    background-position: -5px -117px;
+}
+.mr_module li.active i {
+    margin-left: 28px;
+}
+.mr_module li i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(https://static.lagou.com/www/static/mycenter/modules/common/img/icons_mr_0ef4596.png) no-repeat;
+    margin: 0 24px 0 29px;
+}
+.mr_module li.active .mr_m_name {
+    color: #00b88d;
+}
+.mr_module li a * {
+    vertical-align: middle;
+}
+.mr_module li .mr_works_i {
+    background-position: -24px -137px;
+}
+.mr_module li .mr_works_i:hover {
+    background-position: -5px -137px;
+}
+.mr_module li .mr_edu_i {
+    background-position: -24px -156px;
+}
+.mr_module li .mr_edu_i:hover {
+    background-position: -5px -156px;
+}
+.mr_module li.m_hide .mr_project_i {
+    background-position: -67px -177px;
+}
+.mr_module li.m_hide .mr_project_i:hover {
+    background-position: -5px -177px;
+}
+.mr_module li.m_hide .mr_production_i {
+    background-position: -67px -198px;
+}
+.mr_module li.m_hide .mr_self_i {
+    background-position: -67px -219px;
+}
+.mr_module li.m_hide .mr_self_i:hover {
+    background-position: -5px -219px;
+}
+.mr_module li .mr_hopework_i {
+    background-position: -67px -240px;
+}
+.mr_module li .mr_hopework_i:hover {
+    background-position: -5px -240px;
+}
+.mr_module li.m_hide .mr_skill_i {
+    background-position: -67px -262px;
+}
+.mr_module li .mr_addmd_i {
+    background-position: -24px -177px;
+}
+.mr_module li .mr_addmd_i:hover {
+    background-position: -24px -197px;
+}
+.mr_module li a:hover {
+    color: #00b38a;
+}
+
