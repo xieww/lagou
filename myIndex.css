@@ -280,4 +280,54 @@ em, i {
 .my_info_job:hover .my_edit {
     display: block;
 }
-
+.mypersoninfo {
+    display: block;
+    margin-bottom: 0;
+    position: relative;
+    color: #666;
+    padding: 5px 0 7px;
+    width: 604px;
+    margin: 0 auto;
+}
+.mypersoninfo .div1 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.mypersoninfo .info_j {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.mypersoninfo .base_info i {
+    width: 13px;
+    height: 13px;
+    background-position: -111px -70px;
+}
+.mypersoninfo  i {
+    display: inline-block;
+    background: url(https://www.lgstatic.com/www/static/mycenter/modules/common/img/icons_mr_0ef4596.png) -53px -6px no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.mypersoninfo .base_info em {
+    margin-right: 6px;
+    height: 24px;
+}
+.mypersoninfo em {
+    vertical-align: middle;
+}
+em.a {
+    position: relative;
+}
+.mypersoninfo .mr0 {
+    margin: 0;
+    display: inline-block;
+    max-width: 74px;
+    overflow: hidden;
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.info_j:hover .my_edit {
+    display: block;
+}
