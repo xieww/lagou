@@ -331,3 +331,33 @@ em.a {
 /* .info_j:hover .my_edit {
     display: block;
 } */
+.mypersoninfo .info_b {
+    text-align: center;
+}
+.mypersoninfo .mobile {
+    margin-right: 18px;
+}
+.mypersoninfo .mobile i {
+    width: 12px;
+    height: 14px;
+    background-position: -131px -70px;
+}
+.mypersoninfo i {
+    display: inline-block;
+    background: url(https://www.lgstatic.com/www/static/mycenter/modules/common/img/icons_mr_0ef4596.png) -53px -6px no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.mypersoninfo .email i {
+    width: 14px;
+    height: 10px;
+    background-position: -150px -73px;
+}
+.mypersoninfo .email em {
+    display: inline-block;
+    max-width: 190px;
+    overflow: hidden;
+    height: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
