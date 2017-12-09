@@ -450,6 +450,7 @@ em.a {
 .mr_moudle_content .mr_content_l .l1 {
     float: left;
     margin-right: 10px;
+    margin-top: 25px;
 }
 .mr_moudle_content .mr_content_l .l1 img {
     width: 46px;
@@ -515,4 +516,10 @@ h4 {
 }
 p+p {
     margin-top: 10px;
+}
+#educationalBackground .mr_moudle_content {
+    padding-bottom: 5px;
+}
+#educationalBackground .mb46 {
+    margin-bottom: 0;
 }
