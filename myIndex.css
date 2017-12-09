@@ -1,0 +1,117 @@
+body {
+    line-height: 22px;
+    font-size: 14px;
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+    color: #333;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+
+#tbars {
+    background-color: #333;
+    height: 35px;
+    margin: -9px auto 0px -10px;
+}
+.tbars1 {
+    position: relative;
+    max-width: 1308px; 
+}
+.apps {
+    padding: 5px 0px 0px 20px;
+}
+.apps .app1{
+    color: #08d7a2;
+    background: url(https://static.lagou.com/www/static/common/widgets/header_c/modules/img/app_icon_0495d1d.png) 10px 0 no-repeat;
+    padding: 0 12px 0 27px
+}
+.apps .app2 {
+    border-left: 1px solid #5d5d5d;
+    color: #c4c3c3;
+    line-height: 15px;
+    padding: 0 12px;
+    margin: 7px 0 0;
+}
+a {
+    text-decoration:none;
+    background-color: transparent;
+    color: #555;
+    cursor: auto;
+}
+.denglu {
+    float: right;
+}
+.tbars1 ul {
+    margin: -25px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+    display: block;
+
+}
+.denglu li {
+    position: relative;
+    float: left;
+    height: 30px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.denglu a {
+    color: #c4c3c3;
+    float: left;
+    line-height: 15px;
+    padding: 0 12px;
+    margin: 7px 0 0;
+}
+.bb,.zhuce {
+    border-left: 1px solid #5d5d5d;
+}
+.daohang {
+    height: 54px;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fafafa;
+}
+.inners {
+    width: 1200px;
+    margin: 0 auto;   
+}
+/* .daohang .lagou {
+    width: 260px;
+    text-align: center;
+} */
+.tabs {
+    clear: both;
+    text-align: center;
+}
+.inners ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.daohang .inners .tabs li a {
+    display: block;
+    font-size: 18px;
+    color: #999;
+    line-height: 53px;
+    padding: 0 5px;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: auto;
+}
+.daohang .inners .tabs li {
+    display: inline-block;
+    margin: -15px 16px 0px 16px;
+    position: relative;
+    text-align: -webkit-match-parent;
+}
+.daohang .inners .tabs .index {
+    color: #333;
+}
+.tabs li a:hover {
+    border-bottom: 2px solid #00b38a;
+}
