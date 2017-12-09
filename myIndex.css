@@ -523,3 +523,202 @@ p+p {
 #educationalBackground .mb46 {
     margin-bottom: 0;
 }
+#projectExperience .mr_moudle_content {
+    padding-bottom: 18px;
+}
+#projectExperience .mr_jobe_list {
+    padding-bottom: 32px;
+}
+#projectExperience .l2 {
+    margin-top: 20px;
+}
+#projectExperience .mr_content_m {
+    padding-top: 8px;
+}
+#selfDescription .mr_moudle_content {
+    padding-bottom: 48px;
+}
+.self_des_list {
+    margin-top: 20px; 
+}
+.mr_moudle_content .mr_self_l {
+    float: left;
+    width: 100px;
+    padding-top: 5px;
+    position: relative;
+    height: 81px;
+}
+.mr_self_l i {
+    position: absolute;
+    z-index: 2;
+    width: 81px;
+    height: 81px;
+    background: url(https://static.lagou.com/www/static/mycenter/modules/common/img/mr_txs_7b69a3f.png) no-repeat;
+}
+.mr_self_l img {
+    position: absolute;
+    top: 8px;
+    left: 4px;
+    width: 73px;
+    height: 73px;
+}
+
+.mr_moudle_content .mr_self_r {
+    float: left;
+    width: 504px;
+    color: #555;
+    line-height: 26px;
+}
+#expectJob .mr_moudle_content {
+    padding-bottom: 25px;
+}
+#expectJob .expectjob_list {
+    position: relative;
+}
+.mr_moudle_content .mr_job_info {
+    text-align: center;
+    padding-left: 28px;
+}
+#expectJob .expectjob_list .clearfixs li {
+    font-size: 16px;
+}
+.mr_job_info li {
+    float: left;
+    text-align: left;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.mr_name_li {
+    width: 188px;
+}
+.mr_name_li i {
+    width: 9px;
+    height: 19px;
+    background-position: -97px -220px;
+}
+.mr_job_info li * {
+    vertical-align: middle;
+}
+.mr_job_info i {
+    display: inline-block;
+    margin-right: 10px;
+    background: url(https://static.lagou.com/www/static/mycenter/modules/common/img/icons_mr_0ef4596.png) -97px -220px no-repeat;
+}
+.mr_job_info li * {
+    vertical-align: middle;
+}
+.mr_jobtype_li {
+    width: 128px;
+}
+.mr_jobtype_li i {
+    width: 17px;
+    height: 17px;
+    background-position: -93px -247px;
+}
+.mr_city_li {
+    width: 124px;
+}
+.mr_city_li i {
+    width: 14px;
+    height: 17px;
+    background-position: -93px -273px;
+}
+.mr_jobrange_li {
+    width: 100px;
+}
+.mr_jobrange_li i {
+    width: 18px;
+    height: 18px;
+    background-position: -92px -294px;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mr_myresume_r {
+    float: right;
+    width: 282px;
+}
+.mr_r_nav {
+    margin-bottom: 18px!important;
+}
+.mr_r_nav ul {
+    margin-top: 0;
+    list-style: none;
+    padding: 0;
+}
+.mr_r_nav li {
+    float: left;
+    width: 66px;
+    height: 66px;
+    margin-right: 3px;
+    border: 1px solid #f2f2f2;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.mr_r_nav li a {
+    position: relative;
+    display: block;
+    padding-top: 40px;
+    height: 26px;
+    text-align: center;
+    background-color: #fafafa;
+}
+.mr_r_nav li a .td {
+    background-position: 0 -316px;
+}
+.mr_r_nav li a i {
+    position: absolute;
+    left: 50%;
+    margin-left: -14px;
+    top: 12px;
+    width: 30px;
+    height: 25px;
+    background: url(https://static.lagou.com/www/static/mycenter/modules/common/img/icons_mr_0ef4596.png) no-repeat;
+}
+.mr_r_nav li a em.count1 {
+    width: 18px;
+    background-position: -173px -190px;
+}
+.mr_r_nav li a em {
+    position: absolute;
+    left: 44px;
+    top: 2px;
+    height: 18px;
+    line-height: 18px;
+    background: url(https://static.lagou.com/www/static/mycenter/modules/common/img/icons_mr_0ef4596.png) no-repeat;
+    color: #fff;
+    font-size: 12px;
+}
+.mr_r_nav li a:hover{
+    color: #00b38a;
+}
+.mr_r_nav li a i.td:hover {
+    background-position: 0 -348px;
+}
+.mr_r_nav li a .yq {
+    background-position: -101px -316px;
+}
+.mr_r_nav li a i.yq:hover {
+    background-position: -101px -348px;
+}
+.mr_r_nav li a .sc {
+    background-position: -35px -316px;
+}
+.mr_r_nav li a i.sc:hover {
+    background-position: -35px -348px;
+}
+.mr_r_nav .mr_none {
+    margin-right: 0;
+}
+.mr_r_nav li a .dy {
+    background-position: -67px -316px;
+}
+.mr_r_nav li a i.dy:hover {
+    background-position: -67px -348px;
+}
