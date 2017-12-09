@@ -167,3 +167,44 @@ img {
     vertical-align: top;
     display: inline-block;
 }
+.my_per_1 .my_baseinfo {
+    position: relative;
+    min-height: 118px;
+    padding: 56px 0 10px!important;
+    background-color: #fafafa;
+    border: 1px solid #f2f2f2;
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.mr_left_bg {
+    position: absolute;
+    background: url(https://www.lgstatic.com/www/static/mycenter/modules/common/img/top_bg_3c61ee8.png) no-repeat;
+    width: 12px;
+    height: 34px;
+    top: 76px;
+    left: -1px;
+    background-position: 0 0;
+}
+.mr_right_bg {
+    position: absolute;
+    background: url(https://www.lgstatic.com/www/static/mycenter/modules/common/img/top_bg_3c61ee8.png) no-repeat;
+    width: 12px;
+    height: 34px;
+    top: 76px;
+    right: -2px;
+    background-position: -40px 0;
+}
+em, i {
+    font-style: normal;
+}
+.my_qcon {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    right: 52px;
+    top: 0;
+    width: 48px;
+    height: 50px;
+    background: #f2f2f2 url(https://www.lgstatic.com/www/static/mycenter/modules/common/img/qr_bg_9ac44b7.png) 10px 10px no-repeat;
+}
