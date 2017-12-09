@@ -232,6 +232,9 @@ em, i {
     font-size: 16px;
     color: #00b38a;
 }
+.my_edit * {
+    vertical-align: middle;
+}
 .bt {
     display: none;
 }
@@ -485,4 +488,31 @@ h4 {
 .mr_moudle_content .mr_content_l .l2 span {
     color: #999;
     display: block;
+    margin-top: -20px;
+}
+.mr_moudle_content .mr_content_r {
+    float: right;
+    text-align: right;
+    margin-top: 25px;
+}
+.mr_c_r_t {
+    text-align: right;
+    margin: 5px 0 2px;
+    float: none;
+}
+.mr_moudle_content .mr_content_r span {
+    color: #999;
+}
+.mr_moudle_content .mr_content_r span {
+    color: #999;
+}
+.mr_moudle_content .mr_content_r span {
+    color: #999;
+}
+.mr_content_m {
+    padding-bottom: 1px;
+    padding-top: 4px;
+}
+p+p {
+    margin-top: 10px;
 }
