@@ -352,7 +352,7 @@ em, i {
     -moz-border-radius: 10px;
     border-radius: 10px;
 }
-/* .mypersoninfo .age:hover .birth_span {
+/* .mypersoninfo .age:hover+.birth_span {
     display: block;
 } */
 .mypersoninfo em {
