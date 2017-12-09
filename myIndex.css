@@ -115,3 +115,55 @@ a {
 .tabs li a:hover {
     border-bottom: 2px solid #00b38a;
 }
+.person {
+    width: 1024px;
+    margin: 35px auto 0;
+    padding-bottom: 80px;
+    /* background: #5d5d5d; */
+}
+.person .my_per {
+    float: left;
+    width: 702px;
+    margin-bottom: 20px;
+}
+.person .my_per .my_per_1 {
+    position: relative;
+    margin-bottom: 0;
+}
+.my_per_1 .my_img {
+    position: relative;
+    height: 135px;
+    background: #fafafa url(https://www.lgstatic.com/www/static/mycenter/modules/common/img/tou_c3707c7.png) center top no-repeat;
+    z-index: 2;
+}
+.my_per_1 .my_img img {
+    position: absolute;
+    left: 287px;
+    top: 39px;
+    width: 129px;
+    height: 129px;
+    border: 0;
+}
+.my_img .mr_headimg {
+    background-color: #fafafa;
+    border: 10px solid #e5e5e5;
+    border-radius: 75px;
+}
+.my_img .opa {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 170px;
+}
+.my_img .shadow {
+    display: none;
+    left: 293px;
+    top: 45px;
+    width: 116px;
+    height: 116px;
+}
+img {
+    border: 0;
+    vertical-align: top;
+    display: inline-block;
+}
