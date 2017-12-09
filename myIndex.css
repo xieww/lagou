@@ -208,3 +208,43 @@ em, i {
     height: 50px;
     background: #f2f2f2 url(https://www.lgstatic.com/www/static/mycenter/modules/common/img/qr_bg_9ac44b7.png) 10px 10px no-repeat;
 }
+.my_name_p {
+    width: 604px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 38px;
+    margin-bottom: 8px!important;
+}
+.my_name_p .my_edit {
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
+    height: 34px;
+}
+.my_edit i {
+    display: inline-block;
+    width: 12px;
+    height: 14px;
+    background: url(https://www.lgstatic.com/www/static/mycenter/modules/common/img/icons_mr_0ef4596.png) -53px -6px no-repeat;
+    margin-right: 7px
+}
+.my_edit em {
+    font-size: 16px;
+    color: #00b38a;
+}
+.bt {
+    display: none;
+}
+.my_name_p:hover .my_edit{
+    display: block;
+}
+.my_names {
+    display: block;
+    height: 40px;
+    width: 468px;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
