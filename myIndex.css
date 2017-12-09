@@ -361,3 +361,69 @@ em.a {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+.my_per .my_contents {
+    padding-top: 26px;
+    background-color: #fafafa;
+    border: 1px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    border-top: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.mr_moudle_head {
+    margin-bottom: 23px;
+    width: 604px;
+    margin: 0 auto;
+}
+.mr_moudle_head .mr_head_l {
+    float: left;
+}
+.mr_title {
+    position: relative;
+}
+.mr_title .mr_title_l {
+    width: 230px;
+    height: 0;
+    border-top: 1px solid #ededed;
+}
+.mr_title span {
+    vertical-align: middle;
+    display: inline-block;
+}
+.mr_title .mr_title_c {
+    font-size: 18px;
+    padding: 6px 24px;
+    text-align: center;
+    background-color: #c4c3c3;
+    -moz-border-radius: 26px;
+    -webkit-border-radius: 26px;
+    border-radius: 26px;
+    margin: 0 13px;
+}
+.mr_title .mr_title_r {
+    width: 152px;
+    height: 0;
+    border-top: 1px solid #ededed;
+}
+.mr_moudle_head .mr_head_r {
+    float: right;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.mr_moudle_head .mr_head_r i {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(https://www.lgstatic.com/www/static/mycenter/modules/common/img/icons_mr_0ef4596.png) -5px -69px no-repeat;
+    margin-right: 6px;
+}
+.mr_moudle_head .mr_head_r * {
+    vertical-align: middle;
+}
+.mr_moudle_head .mr_head_r em {
+    font-size: 16px;
+    color: #00b88d;
+}
+.mr_moudle_head .mr_head_r * {
+    vertical-align: middle;
+}
