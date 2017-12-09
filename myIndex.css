@@ -328,6 +328,6 @@ em.a {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.info_j:hover .my_edit {
+/* .info_j:hover .my_edit {
     display: block;
-}
+} */
