@@ -1,0 +1,314 @@
+body {
+    line-height: 22px;
+    font-size: 14px;
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+    color: #333;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+}
+
+#tbars {
+    background-color: #333;
+    height: 35px;
+    margin: -9px auto 0px -10px;
+}
+.tbars1 {
+    position: relative;
+    max-width: 1308px; 
+}
+.apps {
+    padding: 5px 0px 0px 20px;
+}
+.apps .app1{
+    color: #08d7a2;
+    background: url(https://static.lagou.com/www/static/common/widgets/header_c/modules/img/app_icon_0495d1d.png) 10px 0 no-repeat;
+    padding: 0 12px 0 27px
+}
+.apps .app2 {
+    border-left: 1px solid #5d5d5d;
+    color: #c4c3c3;
+    line-height: 15px;
+    padding: 0 12px;
+    margin: 7px 0 0;
+}
+a {
+    text-decoration:none;
+    background-color: transparent;
+    color: #555;
+    cursor: auto;
+}
+.denglu {
+    float: right;
+}
+.tbars1 ul {
+    margin: -25px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+    display: block;
+
+}
+.denglu li {
+    position: relative;
+    float: left;
+    height: 30px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.denglu a {
+    color: #c4c3c3;
+    float: left;
+    line-height: 15px;
+    padding: 0 12px;
+    margin: 7px 0 0;
+}
+.zhuce {
+    border-left: 1px solid #5d5d5d;
+}
+.daohang {
+    height: 54px;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fafafa;
+}
+.inners {
+    width: 1200px;
+    margin: 0 auto;   
+}
+.tabs {
+    clear: both;
+    text-align: center;
+}
+.inners ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.daohang .inners .tabs li a {
+    display: block;
+    font-size: 18px;
+    color: #999;
+    line-height: 53px;
+    padding: 0 5px;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: auto;
+}
+.daohang .inners .tabs li {
+    display: inline-block;
+    margin: -15px 16px 0px 16px;
+    position: relative;
+    text-align: -webkit-match-parent;
+}
+.tabs li a:hover {
+    border-bottom: 2px solid #00b38a;
+}
+/*搜索栏*/
+.searchs {
+    height: 190px;
+    background: #f2f5f4;
+    margin: 0 auto 35px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.searchs .searchlan {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 1200px;
+}
+.searchs .searchlan .search1{
+    margin-bottom: 13px;
+}
+.searchs .searchlan .search1 a {
+    display: inline-block;
+    margin-right: 7px;
+    padding: 7px 10px;
+    border-radius: 2px;
+    background-clip: padding-box;
+}
+.searchs .searchlan .search1 .jobs {
+    background-color: #00b38a;
+    color: #fafafa;
+}
+.searchs .searchlan .search1 .companys {
+    color: #999;
+}
+form.searchinput {
+    display: block;
+    
+}
+.searchinput .search_input {
+    display: inline-block;
+    padding: 12px 15px;
+    width: 791px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #E8E8E8;
+    border-right: 0;
+}
+.search2  input[type=text]:focus {
+    border-color: #00b38a;
+}
+.search2 .search_button {
+    width: 142px;
+    height: 46px;
+    font-size: 16px;
+    color: #FFF;
+    border: 0;
+    background: #00b38a;
+    text-align: center;
+    position: relative;
+    top: 2px;
+    left: -5px;
+}
+.search2 .search_button:hover {
+    background: #00a57f;;
+}
+.hot_search {
+    width: 932px;
+    height: 22px;
+    /* overflow: hidden;
+    margin: 6px auto 0; */
+    display: block;
+
+}
+.hot_search dt {
+    margin-right: -25px;
+    margin-top: -7px;
+    font-size: 14px;
+    color: #777;
+    float: left;
+    display: block;
+    line-height: 22px;
+}
+.hot_search dd {
+    margin-right: -15px;
+    margin-top: -7px;
+    color: #999;
+    float: left;
+    display: block;
+    -webkit-margin-start: 40px;
+    line-height: 22px;
+    font-size: 14px;    
+}
+.hot_words {
+    color: #999;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: auto;
+}
+.hot_words:hover {
+    color: #00b38a;
+}
+.main_contents {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 100px;
+    /* background: #d2d2d2; */
+}
+.main_contents .main_left {
+    width: 960px;
+    float: left;
+    /* background: #999; */
+    height: 500px;
+}
+.main_contents .main_left .filterTab {
+    margin-bottom: 20px;
+}
+.main_contents .main_left .filterTab .filterTabs {
+    position: relative;
+    background: #fafafa;
+    border: 1px solid #ededed;
+    min-height: 36px;
+    padding: 10px 0px 10px 35px;
+}
+.filterTabs .filterTabs_1 {
+    position: relative;
+    overflow: visible;
+    /* width: 900px;
+    height: 100px;
+    background: #999; */
+    left: -40px;
+}
+.filterTabs li {
+    padding: 6px 16px;
+    zoom: 1;
+    color: #555;
+}
+li {
+    display: list-item;
+    list-style: none;
+}
+.filterTabs .filterTabs_li span {
+    font-weight: 600;
+    margin-right: -5px;
+    float: left;
+    padding: 5px 8px;
+    height: 14px;
+    line-height: 14px;
+}
+.filterTabs .filterTabs_li .country {
+    background: #FFF;
+    color: #555;
+    font-size: 14px;
+    border: 1px solid #E8E8E8;
+}
+.filterTabs .filterTabs_li .active {
+    background: #00b38a;
+    color: #FFF;
+    font-size: 14px;
+}
+.filterTabs .filterTabs_1 .filterTabs_li a {
+    margin-right: 5px;
+    padding: 5px 8px;
+    height: 14px;
+    line-height: 16px;
+}
+.filterTabs .filterTabs_li a:hover {
+    background: #00b38a;
+    color: #FFF;
+}
+.filterTabs .filterTabs_li .more_r {
+    position: relative;
+    float: right;
+    z-index: 15;
+    font-weight: 400;
+    left: -10px;
+}
+.filterTabs .filterTabs_li .more_r i {
+    position: absolute;
+    top: 10px;
+    right: -9px;
+    font-size: 0;
+    height: 0;
+    width: 0;
+    border-width: 6px 6px 0;
+    border-style: solid dashed;
+    border-color: #00b38a transparent transparent;
+    overflow: hidden;
+    transition: all .4s ease 0s;
+}
+.filterTabs .filterTabs_li .more_r:hover i {
+    transform: rotate(180deg);
+    animation-fill-mode: forwards;
+}
+.filterTab .pickerTabs {
+    position: relative;
+    margin-top: -15px;
+    text-align: center;
+}
+.filterTab .pickerTabs .picker_a {
+    display: block;
+    margin: 0 auto;
+    height: 15px;
+    width: 36px;
+    border: 1px solid #ededed;
+    border-top-color: #fafafa;
+    background: #fafafa url(https://static.lagou.com/www/static/search-result/modules/filter/img/arrow_up_b7a7618.png) center no-repeat;
+}
