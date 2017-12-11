@@ -317,7 +317,7 @@ li {
     margin-top: 9px;
     background-color: #fafafa;
     border: 1px solid #ededed;
-    /* height: 30px; */
+    height: 38px;
 }
 .filterTabs_2 .order_li {
     zoom: 1;
@@ -327,22 +327,31 @@ li {
 .filterTabs_2 .order_li .order {
     margin-right: 35px;
     position: relative;
-    left: -15px;
+    left: -18px;
 }
-/* .filterTabs_2 .order_li .item {
+.filterTabs_2 .order_li .item {
     float: left;
-    padding: 10px 0;
-    height: 23px;
     line-height: 23px;
-}
 }
 .filterTabs_2 .order_li .order .title {
     margin-right: -5px;
 }
 .filterTabs_2 .order_li .order span {
     font-weight: 600;
-    padding: 5px 8px;
+    padding: 13px 8px 5px 0;
     height: 14px;
     line-height: 14px;
     float: left;
-}  */
+} 
+.filterTabs_2 .order_li div a {
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 7px 8px 6px 8px;
+    height: 14px;
+    line-height: 14px;
+}
+.filterTabs_2 .order_li div .active {
+    background: #00b38a;
+    color: #FFF;
+}
