@@ -727,3 +727,57 @@ strong {
     text-decoration: none;
     border-color: #00b38a;
 }
+.main_right {
+    float: right;
+    width: 210px;
+    overflow: hidden;
+}
+.history {
+    width: 210px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    background: #fafafa;
+    /* background: red; */
+}
+.history .title {
+    margin: 10px 0 2px 15px;
+    font-size: 18px;
+    padding-top: 18px;
+}
+.history .history_ul {
+    margin: 15px 5px 0;
+    background: #FFF;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+.history .history_ul .history_li {
+    padding: 0 10px;
+    border-bottom: 1px dashed #e8e8e8;
+    display: list-item;
+}
+.history .history_ul .history_li .job_name {
+    color: #333;
+    line-height: 23px;
+    height: 23px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    padding-top: 13px;
+}
+.history .history_ul .history_li .salary {
+    color: red;
+    height: 20px;
+    line-height: 20px;
+}
+.history .history_ul .history_li .com_name {
+    color:#999;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.main_right .advert {
+    margin-bottom: 15px;
+}
