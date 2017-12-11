@@ -336,7 +336,7 @@ li {
 .filterTabs_2 .order_li .order .title {
     margin-right: -5px;
 }
-.filterTabs_2 .order_li .order span {
+.filterTabs_2 .order_li .item span {
     font-weight: 600;
     padding: 13px 8px 5px 0;
     height: 14px;
@@ -354,4 +354,14 @@ li {
 .filterTabs_2 .order_li div .active {
     background: #00b38a;
     color: #FFF;
+}
+.filterTabs_2 .order_li div a:hover {
+    background: #00b38a;
+    color: #FFF;
+}
+.filterTabs_2 .order_li div .salary {
+    min-width: 140px;
+    position: relative;
+    margin-right: 40px;
+    z-index: 1;
 }
