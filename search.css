@@ -312,3 +312,37 @@ li {
     border-top-color: #fafafa;
     background: #fafafa url(https://static.lagou.com/www/static/search-result/modules/filter/img/arrow_up_b7a7618.png) center no-repeat;
 }
+.filterTabs_2 {
+    position: relative;
+    margin-top: 9px;
+    background-color: #fafafa;
+    border: 1px solid #ededed;
+    /* height: 30px; */
+}
+.filterTabs_2 .order_li {
+    zoom: 1;
+    color: #555;
+    font-size: 14px;
+}
+.filterTabs_2 .order_li .order {
+    margin-right: 35px;
+    position: relative;
+    left: -15px;
+}
+/* .filterTabs_2 .order_li .item {
+    float: left;
+    padding: 10px 0;
+    height: 23px;
+    line-height: 23px;
+}
+}
+.filterTabs_2 .order_li .order .title {
+    margin-right: -5px;
+}
+.filterTabs_2 .order_li .order span {
+    font-weight: 600;
+    padding: 5px 8px;
+    height: 14px;
+    line-height: 14px;
+    float: left;
+}  */
