@@ -359,14 +359,17 @@ li {
     background: #00b38a;
     color: #FFF;
 }
-.filterTabs_2 .order_li div .salary {
+.filterTabs_2 .order_li  .salary {
     min-width: 140px;
     position: relative;
     margin-right: 40px;
     z-index: 1;
 }
-.filterTabs_2 .order_li div .salary .buxian {
+.filterTabs_2 .order_li .salary .buxian {
     color: #999;
+    display: inline-block;
+    border: 1px solid #f3f3f3;
+    min-width: 40px;
 }
 /* .filterTabs_2 .order_li div .salary .select_list {
     position: relative;
@@ -380,9 +383,9 @@ li {
     font-size: 14px;
     cursor: default;
 }
-.filterTabs_2 .order_li div .salary .select_list i {
+.filterTabs_2 .order_li  .salary .select_list i {
     position: absolute;
-    top: 8px;
+    top: 18px;
     right: 5px;
     font-size: 0;
     height: 0;
@@ -393,7 +396,7 @@ li {
     overflow: hidden;
     transition: all .4s ease 0s;
 }
-.filterTabs_2 .order_li div .salary .select_list ul {
+.filterTabs_2 .order_li .salary .select_list ul {
     position: absolute;
     top: 23px;
     left: 0;
@@ -401,9 +404,36 @@ li {
     display: none;
     border: 1px solid #f3f3f3;
 }
-.filterTabs_2 .order_li div .salary .select_list ul li a {
+.filterTabs_2 .order_li  .salary .select_list ul li a {
     display: block;
     padding: 5px;
     background-color: #fff;
     cursor: pointer;
 } */
+.filterTabs_2 .order_li .type {
+    min-width: 160px;
+    position: relative;
+    margin-right: 40px;
+    z-index: 1;
+}
+.filterTabs_2 .order_li .type .buxian {
+    color: #999;
+    display: inline-block;
+    border: 1px solid #f3f3f3;
+    min-width: 40px;
+}
+.filterTabs_2 .order_li .list_num {
+    float: right;
+    width: auto;
+    border-left: 1px solid #ededed; 
+}
+.filterTabs_2 .order_li .list_num .list_num_1 {
+    color: #c4c3c3;
+}
+.filterTabs_2 .order_li .list_num .list_num_2 {
+    color: #00b38a;
+    font-weight: 400;
+}
+.filterTabs_2 .order_li .list_num .list_num_3 {
+    font-weight: 300;
+}
