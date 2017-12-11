@@ -639,3 +639,17 @@ em, i {
     white-space: nowrap;
     word-wrap: normal;
 }
+.jobs_list_div .recommend {
+    display: block;
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 23px;
+    margin-bottom: 10px;
+}
+.jobs_list_div .recommend .recommend_com {
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+}
