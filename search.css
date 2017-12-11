@@ -471,3 +471,64 @@ li {
     height: 34px;
     line-height: 34px;
 }
+.job_list_top .job_list_l .jobs_t h3{
+    float: left;
+    margin: 0;
+    color: #00b38a;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    max-width: 272px;
+}
+h1, h2, h3, h4 {
+    margin: 10px 0;
+    font-weight: 400;
+}
+h3 {
+    display: block;
+}
+.job_list_top .job_list_l .jobs_t .address{
+    color: #00b38a;
+    font-size: 16px;
+}
+.job_list_top .job_list_l .jobs_t span{
+    float: left;
+    margin: 0 3px;
+}
+em, i {
+    font-style: normal;
+}
+.job_list_top .job_list_l .jobs_t .times {
+    float: left;
+    color: #999;
+    margin: 0 3px;
+}
+.chat_me {
+    display: inline-block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background: url(https://www.lgstatic.com/www/static/search-result/modules/positions/img/icon-chat_4a70ffc.png) no-repeat 0 0;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+.jobs_list_div .job_list_top .job_list_l .jobs_b {
+    height: 24px;
+    line-height: 24px;
+}
+.jobs_list_div .job_list_top .job_list_l .jobs_b .job_b_money {
+    font-size: 14px;
+    color: #555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.job_b_money .money {
+    color: #fd5f39;
+    margin-right: 16px;
+    font-size: 16px;
+}
