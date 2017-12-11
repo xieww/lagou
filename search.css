@@ -220,7 +220,7 @@ form.searchinput {
     width: 960px;
     float: left;
     /* background: #999; */
-    height: 500px;
+    /* height: 500px; */
 }
 .main_contents .main_left .filterTab {
     margin-bottom: 20px;
@@ -583,6 +583,57 @@ em, i {
 .jobs_list_div .job_list_top .job_list_cen .lingyu {
     height: 24px;
     line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.jobs_list_div .job_list_top .job_list_r {
+    float: left;
+    width: 62px;
+}
+.jobs_list_div .job_list_top .job_list_r a {
+    display: block;
+}
+.jobs_list_div .job_list_top .job_list_r a img {
+    display: block;
+    border: 1px solid #f5f5f5;
+}
+.jobs_list_div .job_list_bottom {
+    width: 928px;
+    height: 40px;
+    padding: 0 15px;
+    background-color: #fafafa;
+}
+.jobs_list_div .job_list_bottom .job_list_type {
+    width: 528px;
+    height: 40px;
+    float: left;
+    margin-right: 20px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.jobs_list_div .job_list_bottom .job_list_type span {
+    border: 1px solid #dcdcdc;
+    font-size: 12px;
+    line-height: 20px;
+    color: #555;
+    border-radius: 3px;
+    display: inline-block;
+    max-width: 108px;
+    height: 20px;
+    padding: 0 5px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.jobs_list_div .job_list_bottom .job_company_r {
+    float: left;
+    width: 380px;
+    height: 40px;
+    line-height: 40px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
