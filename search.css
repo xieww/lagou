@@ -355,7 +355,7 @@ li {
     background: #00b38a;
     color: #FFF;
 }
-.filterTabs_2 .order_li div a:hover {
+.filterTabs_2 .order_li .order a:hover {
     background: #00b38a;
     color: #FFF;
 }
@@ -365,3 +365,45 @@ li {
     margin-right: 40px;
     z-index: 1;
 }
+.filterTabs_2 .order_li div .salary .buxian {
+    color: #999;
+}
+/* .filterTabs_2 .order_li div .salary .select_list {
+    position: relative;
+    float: right;
+    padding: 0 10px 0 5px;
+    width: 70px;
+    border: 1px solid #f3f3f3;
+    background-color: #fff;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    cursor: default;
+}
+.filterTabs_2 .order_li div .salary .select_list i {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    font-size: 0;
+    height: 0;
+    width: 0;
+    border-width: 6px 6px 0;
+    border-style: solid dashed;
+    border-color: #9b9b9b transparent transparent;
+    overflow: hidden;
+    transition: all .4s ease 0s;
+}
+.filterTabs_2 .order_li div .salary .select_list ul {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    right: 0;
+    display: none;
+    border: 1px solid #f3f3f3;
+}
+.filterTabs_2 .order_li div .salary .select_list ul li a {
+    display: block;
+    padding: 5px;
+    background-color: #fff;
+    cursor: pointer;
+} */
