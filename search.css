@@ -6,7 +6,11 @@ body {
     word-wrap: break-word;
     -webkit-font-smoothing: antialiased;
 }
-
+/* ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} */
 #tbars {
     background-color: #333;
     height: 35px;
@@ -436,4 +440,19 @@ li {
 }
 .filterTabs_2 .order_li .list_num .list_num_3 {
     font-weight: 300;
+}
+.filterTab::after {
+    clear: both;
+}
+.jobs_list_div .job_list_ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.job_list_div .job_list_ul .job_list_li {
+    position: relative;
+    color: #555;
+    border: 1px solid #ededed;
+    margin-top: 18px;
 }
