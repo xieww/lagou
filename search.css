@@ -840,7 +840,7 @@ strong {
 .footer_barslogo {
     position: absolute;
     left: -60px;
-    top: 9px;
+    top: 12px;
     z-index: 1;
     display: block;
     width: 198px;
